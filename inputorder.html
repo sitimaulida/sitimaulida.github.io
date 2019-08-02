@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nos Kupi</title>
+		<!--start css-->
+		<link rel="stylesheet"  href="styles/style.css" type="text/css">
+		<!--end css-->
+	
+	</head>
+
+	<body >
+		<!--bagian tabel logo-->
+		<div class="container logo bg-grey">
+			<img src="images/logo kopii.jpg" width="20%">
+		</div>
+		<!--akhir tabel logo-->
+
+		<!--bagian menu-->
+		<div class="container menu-primer">
+			<ul>	
+				<li>
+					<a href="index.html" > Home</a>
+				</li>
+		
+				<li>
+					<a href="order.html" >Order</a>
+				</li>
+		
+				<li>
+					<a href="inputorder.html" class="active">Input Order</a>
+				</li>
+		
+				<li>
+					<a href="description.html"> description</a>
+				</li>
+		
+				<li>
+					<a href="tentang.html">About</a>
+				</li>
+		
+				<li>
+					<a href="kontak.html">Contact </a>
+				</li>
+				
+			</ul>
+					<hr>
+		</div>
+						
+		<!--akhir bagian menu-->
+		
+		<div class="container menu-primer">
+	
+		<form method="post" action="bayar.html">
+			<td width="500px">
+		<table border="0">
+			<tr>	
+				<img src="images/logo kopii.jpg" align="center" width="10%" >
+			</tr>
+
+			<tr>
+				<td>Nama Pembeli</td>
+				<td>:</td>
+				<td><input type="text" name="nama" placeholder="Nama"></td>
+			</tr>
+
+			<tr>
+				<td>Alamat Pengiriman</td>
+				<td>:</td>
+				<td><textarea name="alamat" placeholder="Alamat kirim"></textarea></td>
+			</tr>
+
+			<tr>
+				<td>Jenis Pembayaran</td>
+				<td>:</td>
+				<td><select name="status">
+					<option value="1">Dipilih</option>
+					<option value="2">Bank</option>
+					<option value="3">E-Banking</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+                <td>Jasa Pengiriman</td>
+				<td>:</td>
+				<td><select name="status">
+					<option value="1">Dipilih</option>
+					<option value="2">JNT</option>
+					<option value="3">JNE</option>
+					<option value="4">COD</option>
+					</select>
+				</td>
+				</tr>
+
+			<tr>		
+				<td ><button type="button"> bayar<a href="bayar.html"></a></button></td>
+					
+			</tr>
+
+		</form>
+		</div>
+		</table>
+
+	</body>
+</html>
